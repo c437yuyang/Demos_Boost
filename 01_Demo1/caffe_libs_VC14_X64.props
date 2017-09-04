@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ImportGroup Label="PropertySheets" />
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\Libs_Cpp\caffe_libs\include\boost-1_61;E:\Libs_Cpp\caffe_libs\include;E:\Libs_Cpp\caffe_libs\include\opencv</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>E:\Libs_Cpp\caffe_libs\lib\boost_system-vc140-mt-1_61.lib;E:\Libs_Cpp\caffe_libs\lib\boost_thread-vc140-mt-1_61.lib;E:\Libs_Cpp\caffe_libs\lib\boost_filesystem-vc140-mt-1_61.lib;E:\Libs_Cpp\caffe_libs\lib\boost_chrono-vc140-mt-1_61.lib;E:\Libs_Cpp\caffe_libs\lib\boost_date_time-vc140-mt-1_61.lib;E:\Libs_Cpp\caffe_libs\lib\boost_atomic-vc140-mt-1_61.lib;E:\Libs_Cpp\caffe_libs\lib\glog.lib;E:\Libs_Cpp\caffe_libs\Lib\gflags.lib;E:\Libs_Cpp\caffe_libs\lib\libprotobuf.lib;E:\Libs_Cpp\caffe_libs\lib\caffehdf5_hl.lib;E:\Libs_Cpp\caffe_libs\lib\caffehdf5.lib;E:\Libs_Cpp\caffe_libs\lib\caffezlib.lib;E:\Libs_Cpp\caffe_libs\lib\lmdb.lib;E:\Libs_Cpp\caffe_libs\lib\leveldb.lib;E:\Libs_Cpp\caffe_libs\lib\boost_date_time-vc140-mt-1_61.lib;E:\Libs_Cpp\caffe_libs\lib\boost_filesystem-vc140-mt-1_61.lib;E:\Libs_Cpp\caffe_libs\lib\boost_system-vc140-mt-1_61.lib;E:\Libs_Cpp\caffe_libs\lib\snappy_static.lib;E:\Libs_Cpp\caffe_libs\lib\caffezlib.lib;E:\Libs_Cpp\caffe_libs\x64\vc14\lib\opencv_highgui310.lib;E:\Libs_Cpp\caffe_libs\x64\vc14\lib\opencv_imgcodecs310.lib;E:\Libs_Cpp\caffe_libs\x64\vc14\lib\opencv_imgproc310.lib;E:\Libs_Cpp\caffe_libs\x64\vc14\lib\opencv_core310.lib;E:\Libs_Cpp\caffe_libs\lib\libopenblas.dll.a;E:\Libs_Cpp\caffe_libs\lib\boost_python-vc140-mt-1_61.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup />
+</Project>
